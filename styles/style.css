@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Open Sans',
+        sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    /* background: #000; */
+}
+
+
+.container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+/* navbar start here  */
+
+.navbar {
+    background-color: #EAEAEA;
+    padding: 20px;
+}
+
+.navbar-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-wrapper {
+    width: 170px;
+}
+
+.icon-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.navbar-item ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item ul li {
+    margin-left: 20px;
+}
+
+.navbar-item ul li a {
+    padding: 6px 14px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #4c4c4c;
+}
+
+li.nav-btn a {
+    color: #fff !important;
+    background-color: #0066F9;
+    border-radius: 5px;
+    font-weight: 600 !important;
+    padding: 12px 28px !important;
+}
+
+/* navbar before & hover effects start */
+.navbar-item ul li a::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0px;
+    border-bottom: 4px solid #0066F9;
+    border-radius: 20px;
+    transition: .5s;
+    /* opacity: 0; */
+}
+
+.navbar-item ul li a:hover::before {
+    opacity: 1;
+}
+
+
+.navbar-item ul li:nth-child(1) a::before {
+    transform: translate(-15px, 22px);
+}
+
+.navbar-item ul li:nth-child(1) a:hover::before {
+    width: 72px;
+}
+
+
+.navbar-item ul li:nth-child(2) a::before {
+    transform: translate(-15px, 22px);
+}
+
+
+.navbar-item ul li:nth-child(2) a:hover::before {
+    width: 72px;
+}
+
+
+.navbar-item ul li:nth-child(3) a::before {
+    transform: translate(-15px, 22px);
+}
+
+.navbar-item ul li:nth-child(3) a:hover::before {
+    width: 62px;
+}
+
+
+.navbar-item ul li:nth-child(4) a::before {
+    transform: translate(-15px, 22px);
+}
+
+.navbar-item ul li:nth-child(4) a:hover::before {
+    width: 85px;
+}
+
+
+.active {
+    border-bottom: 4px solid #0066F9;
+}
+
+.active::before {
+    display: none !important;
+}
+
+/* navbar before & hover effects end */
+
+/* navbar end here  */
+
+
+
+
+
+
+
+
+
+/* main start here */
+
+.main {
+    padding: 20px 0px;
+}
+
+/* main end here */
+
+/* hr-line */
+.hr-line {
+    border: 1px solid #EAEAEA;
+}
+
+.footer {
+    padding: 20px 0px;
+}
+
+/* footer start here */
+.social-item a {
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.social-item a i {
+
+    font-size: 45px;
+    color: #0066F9;
+}
+
+.footer p {
+    padding: 12px 0px;
+}
+
+footer a {
+    color: black;
+}
+
+/* footer end here */
