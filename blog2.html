@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Gatsby</title>
+    <title>Blog | Gatsby</title>
     <script src="https://kit.fontawesome.com/ee3c098242.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/logo.svg">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/blog.css">
 
 </head>
@@ -29,9 +28,9 @@
 
             <div class="navbar-item">
                 <ul>
-                    <li> <a href="index.html" class="active">Home</a> </li>
+                    <li> <a href="index.html">Home</a> </li>
                     <li> <a href="about.html">About</a> </li>
-                    <li> <a href="blog.html">Blog</a> </li>
+                    <li> <a href="blog.html" class="active">Blog</a> </li>
                     <li> <a href="contact.html">Contact</a> </li>
                     <li class="nav-btn"> <a href="index.html ">Button</a> </li>
                 </ul>
@@ -48,52 +47,38 @@
 
     <!-- main start here -->
 
-    <main class="container main home">
-        <h1>Gatsby multi-language starter</h1>
-        <p class="home-p">
-            Internationalization / i18n without third party plugins or packages for Posts and Pages. Different URLs
-            dependending on the language. Focused on SEO, PWA, Image Optimization, Styled Components and more. This
-            starter is also integrate with Netlify CMS to manage all pages, posts and images.
-        </p>
-        <hr>
-        <p class="home-span">Latest posts</p>
-
+    <main class="container main">
+        <h1 class="blog">Blog</h1>
         <div class="card-container">
             <a href="#">
-                <div class="card1 card">
+                <div class="card5 card">
                     <div class="image-container">
-                        <img src="images/card1.jpg" alt="">
+                        <img src="images/card5.jpg" alt="">
                     </div>
                     <div class="card-btn">
-                        <span>GATSBY</span>
+                        <span>MARKDOWN</span>
                     </div>
                     <div class="card-text-container">
                         <time> 15/10/2019 • 1 min to read</time>
-                        <h3>Adding menu item</h3>
-                        <p>Add menu items in GraphQL to create a dynamic menu</p>
-                    </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="card2 card">
-                    <div class="image-container">
-                        <img src="images/card2.jpg" alt="">
-                    </div>
-                    <div class="card-btn">
-                        <span>GATSBY</span>
-                    </div>
-                    <div class="card-text-container">
-                        <time> 15/10/2019 • 1 min to read</time>
-                        <h3>Creating posts and pages</h3>
-                        <p>See how is super easy to add new posts and pages in this project</p>
+                        <h3>Markdown Examples</h3>
+                        <p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
                     </div>
                 </div>
             </a>
         </div>
 
-        <div class="all-post">
-            <a href="blog.html">All Posts</a>
+        <div class="navigation">
+            <div class="previous">
+                <span> <span><a href="blog.html"> ← Prev </a></span></span>
+            </div>
+            <div class="navigation-txt">
+                <span>2 of 2</span>
+            </div>
+            <div class="next">
+                <!-- <span><a href="blog2.html"> Next → </a></span> -->
+            </div>
         </div>
+
 
     </main>
 
@@ -124,7 +109,6 @@
 
     </footer>
     <!-- footer end here -->
-
 
 </body>
 

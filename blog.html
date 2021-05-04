@@ -10,6 +10,7 @@
     <link rel="icon" href="images/logo.svg">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/blog.css">
 
 </head>
 
@@ -47,11 +48,85 @@
     <!-- main start here -->
 
     <main class="container main">
-        <h1>Blog page</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in dolore error consectetur, odio sequi. Nulla
-            natus vel pariatur facere, labore aut laudantium omnis non eveniet odit doloremque voluptatum id?
-        </p>
+        <h1 class="blog">Blog</h1>
+        <div class="card-container">
+            <a href="#">
+                <div class="card1 card">
+                    <div class="image-container">
+                        <img src="images/card1.jpg" alt="">
+                    </div>
+                    <div class="card-btn">
+                        <span>GATSBY</span>
+                    </div>
+                    <div class="card-text-container">
+                        <time> 15/10/2019 • 1 min to read</time>
+                        <h3>Adding menu item</h3>
+                        <p>Add menu items in GraphQL to create a dynamic menu</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card2 card">
+                    <div class="image-container">
+                        <img src="images/card2.jpg" alt="">
+                    </div>
+                    <div class="card-btn">
+                        <span>GATSBY</span>
+                    </div>
+                    <div class="card-text-container">
+                        <time> 15/10/2019 • 1 min to read</time>
+                        <h3>Creating posts and pages</h3>
+                        <p>See how is super easy to add new posts and pages in this project</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card3 card">
+                    <div class="image-container">
+                        <img src="images/card3.jpg" alt="">
+                    </div>
+                    <div class="card-btn">
+                        <span>IMAGES</span>
+                    </div>
+                    <div class="card-text-container">
+                        <time> 15/10/2019 • 1 min to read</time>
+                        <h3>Digital image processing</h3>
+                        <p>In computer science, digital image processing is the use of computer algorithms to perform
+                            image processing on digital images.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card4 card">
+                    <div class="image-container">
+                        <img src="images/card4.jpg" alt="">
+                    </div>
+                    <div class="card-btn">
+                        <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="card-text-container">
+                        <time> 15/10/2019 • 1 min to read</time>
+                        <h3>Javascript Language - Code examples using PrismJS</h3>
+                        <p>JavaScript, often abbreviated as JS, is a high-level, interpreted scripting language that
+                            conforms to the ECMAScript specification.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="navigation">
+            <div class="previous">
+                <!-- <span> <span><a href="blog.html"> ← Prev </a></span></span> -->
+            </div>
+            <div class="navigation-txt">
+                <span>1 of 2</span>
+            </div>
+            <div class="next">
+                <span><a href="blog2.html"> Next → </a></span>
+            </div>
+        </div>
+
+
     </main>
 
     <!-- main end here -->
@@ -74,14 +149,13 @@
             </a>
         </div>
 
-        <p>Iceberg Gatsby is a PWA, save it for offline reading. <a
-                href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"> See more PWA here.</a></p>
+        <p>Iceberg Gatsby is a PWA, save it for offline reading.
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"> See more PWA here.</a></p>
         <p>Maintained by <a href="https://twitter.com/_diogorodrigues">@_diogorodrigues.</a> You can always contribute
             with the project on <a href="https://github.com/diogorodrigues/iceberg-gatsby-multilang">Github</a></p>
 
     </footer>
     <!-- footer end here -->
-
 
 </body>
 

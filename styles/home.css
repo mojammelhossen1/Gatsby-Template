@@ -1,0 +1,19 @@
+.home .home-p {
+    padding: 25px 0px;
+    line-height: 1.6;
+    margin-right: 32px;
+    font-size: 17px;
+    font-weight: 600px;
+}
+
+.home-span {
+    margin: 25px 0px;
+    font-size: 17px;
+}
+
+.all-post {
+    margin-top: 40px;
+}
+.all-post a {
+    color: black;
+}
