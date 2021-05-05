@@ -1,0 +1,49 @@
+.contact-h1 {
+    margin-bottom: 25px;
+}
+
+.contact-form div {
+    margin: 25px 0px;
+}
+
+.contact-form div label,
+.contact-form div input,
+.contact-form div textarea {
+    display: block;
+    width: 100%;
+
+}
+
+
+.contact-form div label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact-form div input,
+.contact-form div textarea {
+    padding: 20px 15px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(221, 221, 221, 0.363);
+    font-size: 15px;
+}
+
+.contact-form div textarea {
+    resize: none;
+}
+
+.contact-form-submit {
+    color: #fff;
+    background-color: #0066F9;
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: navajowhite;
+    border: navajowhite;
+    border-radius: 5px;
+    cursor: pointer;
+}
